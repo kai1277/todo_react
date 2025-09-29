@@ -1,8 +1,13 @@
 {
   "name": "todo_react",
   "version": "1.0.0",
+  "private": true,
+  "type": "module",
   "main": "index.js",
   "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview --open",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
