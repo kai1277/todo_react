@@ -9,7 +9,7 @@ export const App = () => {
     <div>
       <h1 style={contentStyle}>こんにちは！</h1>
       <p>お元気ですか？</p>
-      <button onCLick={onClickButton}>ボタン</button>
+      <button onClick={onClickButton}>ボタン</button>
     </div>
   );
 };
